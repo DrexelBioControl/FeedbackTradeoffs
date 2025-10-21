@@ -126,8 +126,8 @@ This repository contains the following folders and files. For folders in which t
 -----------------------------------------
 
 
-- Circuit7B:
-  This folder contains analysis for sensitivity of the circuit in Figure 7A of the paper.
+- Circuit6B:
+  This folder contains analysis for sensitivity of the circuit in Figure 6B of the paper.
 
 - - code1_optimisedsolve.py:
     This file defines the circuit and sets up the grid search. The grid search is performed over three parameters: beta_x, beta_y, n. For each beta_x, indexed by 'betaindex', a full sweep is performed on beta_y and n.
@@ -145,7 +145,7 @@ This repository contains the following folders and files. For folders in which t
 -----------------------------------------
 
 
-- Circuit8D:
+- Circuit7D:
   This folder contains analysis for sensitivity of the circuit in Figure 7D of the paper.
 
 - - code1_optimisedsolve.py:
