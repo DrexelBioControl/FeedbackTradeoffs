@@ -50,7 +50,8 @@ This repository contains the following folders and files. For folders in which t
 
 - - codeIII_blobplot.py: 
 
-- - blobplot.py: 
+- - blobplot.py:
+    Should the reader wish to recreate the plots in Figure 5 (we call these "blobplots"), the reader should rerun codeI to codeIV for leak levels: 0, 0.1, 1 and 10; and name the corresponding output data with suffix "_L{leak level}". That is, for leak level 0.1, use naming convention: "ARneg_SensitivityPolyhedrons_L0.1.npy". Run this codeV file in the end to generate plot. 
 
 
 -----------------------------------------
