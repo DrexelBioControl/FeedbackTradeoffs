@@ -158,4 +158,5 @@ This repository contains the following folders and files. For folders in which t
 -----------------------------------------
 
 
-- AllParetoPlots: 
+- AllParetoPlots:
+  Contains sensitivity plots for each circuit architecture and leak level.
