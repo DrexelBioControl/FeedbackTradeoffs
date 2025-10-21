@@ -4,14 +4,14 @@ This repository contains the following folders and files. For folders in which t
 -----------------------------------------
 
 
-- Mathematica:
+- SensitivityFunctionDerivation:
   This folder contains all Mathematica notebooks deriving the sensitivity functions of our three dual-species feedback circuits: positive-negative feedback, double-positive feedback and double-negative feedback (toggle switch). 
 
 
 -----------------------------------------
 
 
-- Leakiness_mathematica:
+- SensitivityFunctionDerivation_WithLeak:
   This folder contains all Mathematica notebooks deriving the sensitivity functions of our five feedback circuits with leak mechanism considered: positive autoregulation, negative autoregulation, positive-negative feedback, double-positive feedback and double-negative feedback (toggle switch). 
   
 
