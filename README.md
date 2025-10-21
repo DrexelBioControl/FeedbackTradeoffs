@@ -22,17 +22,22 @@ This repository contains the following folders and files. For folders in which t
   Sensitivity analysis of negative autoregulation circuit.
 
 - - codeI_arneg_optimisedsolve.py:
-
-- - codeII_bashscript: 
+    This file defines the negative autoregualtion system (dynamical equations, sensitivity functions) and sets up the grid search. The grid search is performed over two paramters: alpha and n. 
+    
+- - codeII_bashscript.sh:
+    Run this in terminal to execute codeI_arneg_optimisedsolve.py
 
 - - codeIII_arneg_combine.py:
+    Since codeI_arneg_optimisedsolve.py outputs separate files for each alpha value, indexed by 'aindex', run this file to combine all individual outputs.
 
 - - codeIV_ParetosInSensAndParamSpace.py:
 
-- - codeV_blobplot.py: 
 
-- - blobplot.py: 
+- - blobplot.py:
+    Should the reader wish to recreate the plots in Figure 5 (we call these "blobplots"), the reader should rerun codeI to codeIV for leak levels: 0, 0.1, 1 and 10; and name the corresponding output data with suffix "_L{leak level}". That is, for leak level 0.1, use naming convention: "ARneg_SensitivityPolyhedrons_L0.1.npy". Run this codeV file in the end to generate plot. 
 
+
+-----------------------------------------
 
 
 - AutoregulationPositive_AdjustableLeak: 
