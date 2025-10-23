@@ -23,7 +23,7 @@ def Equ1(x, y, beta_x, n):
                                                                                      #|
 # y-nullcline                                                                        #|
 def Equ2(x, y, beta_y, n):                                                           #|
-    return beta_y * y**n / (1 + y**n) - y
+    return beta_y * x**n / (1 + x**n) - y
                                                                                      #|
 # ____________________________________________________________________________________
 

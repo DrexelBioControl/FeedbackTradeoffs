@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     75010,       2146]
-NotebookOptionsPosition[     67574,       2011]
-NotebookOutlinePosition[     68008,       2028]
-CellTagsIndexPosition[     67965,       2025]
+NotebookDataLength[     75480,       2156]
+NotebookOptionsPosition[     67950,       2020]
+NotebookOutlinePosition[     68384,       2037]
+CellTagsIndexPosition[     68341,       2034]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2006,7 +2006,16 @@ Cell[BoxData[
        SubscriptBox["\[Beta]", "y"]}]}], ")"}]}]}]]], "Output",
  CellChangeTimes->{3.936146036436715*^9},
  CellLabel->"Out[41]=",ExpressionUUID->"19c19183-fa34-4f88-a561-39e6f146ad8b"]
-}, Open  ]]
+}, Open  ]],
+
+Cell["\<\
+Note: these may look different from that of positive autoregulation, even \
+though the functional form of dx/dt is the same, because we have removed the \
+zero solution from positive autoregulation whereas here we have not.\
+\>", "Text",
+ CellChangeTimes->{{3.970083736110199*^9, 
+  3.970083791289982*^9}},ExpressionUUID->"9a3fe7d9-7ef1-41bb-8520-\
+695e6cbc3ec5"]
 }, Open  ]]
 },
 WindowSize->{1512, 916},
@@ -2145,8 +2154,9 @@ Cell[65305, 1934, 950, 29, 58, "Output",ExpressionUUID->"27ee5e88-b286-4df2-8ae1
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[66292, 1968, 418, 10, 50, "Input",ExpressionUUID->"22aa0326-293f-4bf1-a9ff-d7bcd400be01"],
-Cell[66713, 1980, 833, 27, 81, "Output",ExpressionUUID->"19c19183-fa34-4f88-a561-39e6f146ad8b"]
-}, Open  ]]
+Cell[66713, 1980, 833, 27, 58, "Output",ExpressionUUID->"19c19183-fa34-4f88-a561-39e6f146ad8b"]
+}, Open  ]],
+Cell[67561, 2010, 373, 7, 35, "Text",ExpressionUUID->"9a3fe7d9-7ef1-41bb-8520-695e6cbc3ec5"]
 }, Open  ]]
 }
 ]
